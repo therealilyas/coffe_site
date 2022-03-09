@@ -1,0 +1,332 @@
+/* font-family: 'Fraunces', serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header */
+.header {
+  width: 100%;
+  padding-top: 45px;
+  /* padding-bottom: 45px; */
+}
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 236px;
+  height: 26px;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  text-indent: 33px;
+  text-transform: uppercase;
+}
+.link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #83888f;
+  transition: 0.3s ease;
+}
+.link:hover {
+  color: #fdd6ba;
+  transition: 0.3s ease;
+}
+/* Main */
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../assets/images/Bitmap.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  padding-left: 85px;
+  padding-bottom: 167px;
+}
+.title {
+  width: 500px;
+  height: 145px;
+}
+.title h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.title p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.common-btn {
+  padding: 15px;
+  border: none;
+  background: #0e8784;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  transition: 0.3s ease;
+}
+.common-btn:hover {
+  background: #fdd6ba;
+  color: #0e8784;
+  transition: 0.3s ease;
+}
+/* Section 2 */
+.section-2 {
+  width: 100%;
+  height: 530px;
+  margin-bottom: 200px;
+}
+.background_2 {
+  width: 100%;
+  height: 196px;
+  background-image: url("../assets/images/background_2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  z-index: -1;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -80px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item_title {
+  text-align: center;
+  width: 255px;
+  height: 134px;
+}
+
+.item_title h1 {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+.item_title p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+/* Section-3 */
+.section-3 {
+  width: 100%;
+  height: 1021px;
+  padding-bottom: 188px;
+}
+.section-3 .container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 100px;
+  flex-direction: column;
+  width: 100%;
+  height: 577px;
+  background-image: url("../assets/images/Bitmap2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  z-index: -1;
+}
+.box_title {
+  width: 540px;
+  height: 160px;
+}
+
+.box_title h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.box_title p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+  top: -250px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-top: 72px;
+  width: 300px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+.card img {
+  padding-bottom: 56px;
+}
+.card_title {
+  width: 255px;
+  height: 134px;
+}
+.card h1 {
+  padding-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+.card p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+/* Section-4 */
+.section-4 {
+  width: 100%;
+  height: 700px;
+}
+h4 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 5rem;
+}
+.steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.step {
+  width: 285px;
+  height: 355px;
+}
+.step h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+
+.step h2 {
+  width: 255px;
+  height: 72px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 43px;
+}
+.step p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer .container {
+  width: 80%;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-bottom: 88px;
+  width: 100%;
+  height: 120px;
+  background: url("../assets/images/footer_back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.social-icons img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
